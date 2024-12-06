@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Static Website</title>
+    <style>
+        body {
+            font-family: Calibri, Arial, sans-serif;
+            text-align: center;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px 0;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2rem;
+        }
+        nav {
+            margin-top: 10px;
+        }
+        nav a {
+            margin: 0 15px;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #f4f4f4;
+        }
+        main {
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        main h2 {
+            color: #4CAF50;
+            margin-bottom: 15px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            font-size: 0.9rem;
+        }
+        footer a {
+            color: #4CAF50;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+        img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%; /* Circular image */
+            margin: 15px auto;
+            display: block; /* Centers the image */
+        }
+        a {
+            color: #4CAF50;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        a:hover {
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Website</h1>
+        <nav>
+            <a href="#project">Project</a>
+            <a href="#about-me">About Me</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <h2 id="project">Project</h2>
+        <p>
+            This is a simple static website hosted on AWS S3. It is fast, reliable, and easy to set up!
+        </p>
+        <h2 id="about-me">About Me</h2>
+        <img src="C:\Users\USER\Desktop\pp.jpg" alt="Profile Picture">
+        <p>
+            Hello! My name is <strong>Pritam</strong>, and I am passionate about cloud computing, technology, and helping businesses grow through innovative solutions.
+        </p>
+        <p>
+            I currently work as a <strong>Cloud Presales Executive</strong> and have expertise in AWS solutions, cost optimization, and managed services.
+            With a certification in AWS Cloud, I focus on delivering value-added services and helping customers optimize their cloud usage.
+        </p>
+        <p>
+            My journey includes hands-on experience in hosting websites, optimizing business applications, and migrating workloads to the cloud.
+            I’m always eager to learn, grow, and share knowledge about the exciting world of cloud computing!
+        </p>
+        <h2 id="contact">Contact</h2>
+        <p>
+            Connect with me on LinkedIn: 
+            <a href="https://www.linkedin.com/in/pritam-mondal001/" target="_blank">Pritam Mondal</a>
+        </p>
+    </main>
+    <footer>
+        <p>
+            &copy; 2024 My Static Website. All rights reserved. | 
+            <a href="#project">Back to Top</a>
+        </p>
+    </footer>
+</body>
+</html>
